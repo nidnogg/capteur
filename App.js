@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Accelerometer from './Accelerometer';
-import Gyroscope from './Gyroscope';
-import Magnetometer from './Magnetometer';
+import Accelero from './Accelero';
+import Gyro from './Gyro';
+import Magneto from './Magneto';
 
 
 export default function App() {
@@ -11,9 +11,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>Main</Text>
       <StatusBar style="auto" />
-      <Accelerometer />
-      <Gyroscope />
-      <Magnetometer />
+      <Accelero />
+      <Gyro />
+      <Magneto />
     </View>
   );
 }

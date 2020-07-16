@@ -1,12 +1,13 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import { Gyroscope } from 'expo-sensors';
 
-const Accelerometer = () => {
+const Gyro = () => {
   return (
     <View>
-      <Text>Accelerometer</Text>
+      <Text>Gyroscope</Text>
     </View>
   );
 }
 
-export default Accelerometer;
+export default Gyro;

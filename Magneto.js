@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import { Magnetometer } from 'expo-sensors';
 
-const Magnetometer = () => {
+const Magneto = () => {
   return (
     <View>
       <Text>Magnetometer</Text>
@@ -9,4 +10,4 @@ const Magnetometer = () => {
   );
 }
 
-export default Magnetometer;
+export default Magneto;
