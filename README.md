@@ -1,16 +1,17 @@
 # capteur
 sensor app!
 
-## Sobre
-Um app simples para acessar três sensores:
-- Acelerometro
-- Giroscópio
-- Magnetometro
+## About
+This is a simple app that reads three sensors:
+- Accelerometer
+- Gyroscope
+- Magnetometer
 
-## Instalação
-Tenha instalado Node.js, NPM e Expo-Cli no seu computador.
+## Installation
+Make sure you have **Node.js**, **npm** and **expo-cli** installed.
 
-Dentro do diretório com o projeto, abra o terminal e rode:
+Inside the project root directory, open the command line and run:
+
 ```bash
 npm install
 npm start
